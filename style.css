@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  /* Center the table on the page and set its width */
+  table.centre {
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  /* Add borders and padding to table cells */
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  /* Add a background color to even-numbered table rows */
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  /* Style text, tel, email, select, and date input fields */
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  select,
+  input[type="date"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  /* Style the submit button */
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* Change the background color of the submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  /* Style the table caption */
+  caption {
+    font-size: x-large;
+    background-color: #967e76;
+    color: white;
+    padding: 10px;
+  }

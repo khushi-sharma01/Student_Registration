@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+       <table class="centre" >
+
+              
+              <caption style="font-size:x-large; background-color: #967E76;">STUDENT REGISTRATION</caption>
+              <tr>
+                  
+                  <td>First Name</td>
+
+                  <td><input type="text" placeholder="aditya" name="FN" id="FN"></td>
+              </tr>
+
+              <tr>
+                  <td>Last Name</td>
+                  <td><input type="text" placeholder="Sharma" name="LN" id="LN" required></td>
+              </tr>
+
+              <tr>
+                  <td>Enrollment Number </td>
+                  <td><input type="text" placeholder="0901CS2023" name="EN" id="EN"></td>
+              </tr>
+              <tr>
+                  <td>Contact Number </td>
+                  <td><input type="tel"  name="TEL" id="TEL"></td>
+              </tr>
+              <tr>
+                  <td>Email Address </td>
+                  <td><input type="email"  name="emailadd" id="emailadd"></td>
+              </tr>
+
+              <tr>
+                  <th>Gender 
+                      <select name="Gender" id="Gender" >
+                          <option value="M">Male</option>
+                          <option value="F">Female</option>
+                      
+      
+                      </select>
+                      <th>Date of Birth
+                          <input type="date" id="dob">
+                      </th>
+
+                  </th>
+              
+              </tr>
+
+              <tr>
+                  <td>Fathers Name </td>
+                  <td><input type="text"  name="fathersN" id="fathersN"></td>
+              </tr>
+              <tr>
+                  <td>School Name </td>
+                  <td><input type="text"  name="schoolName" id="schoolName"></td>
+              </tr>
+
+          <tr><th>Marks Secured (Out of 100) in following subjects:</th>
+          </tr>
+          <tr>
+              <td>Physics </td>
+              <td><input type="number" max="100" min="0" name="Physics" id="Physics"></td>
+          </tr>
+          <tr>
+              <td>chemistry </td>
+              <td><input type="number" max="100" min="0"  name="chemistry" id="chemistry"></td>
+          </tr>
+          <tr>
+              <td>Maths </td>
+              <td><input type="number" max="100" min="0" name="Maths" id="Maths"></td>
+          </tr>
+          <tr>
+              <td>Hindi </td>
+              <td><input type="number" max="100" min="0" name="Hindi" id="Hindi"></td>
+          </tr>
+          <tr>
+              <td>English</td>
+              <td><input type="number" max="100" min="0" name="English" id="English"></td>
+          </tr>
+          
+
+          <tr>
+              <td colspan="2" >
+                  <input type="submit" value="Submit" id="submitbtn" name="submitbtn" onclick="call()"></td>
+          </tr>
+          </table>
+
+          <div id="result" ></div>
+          
+      </body>
+  </html>
