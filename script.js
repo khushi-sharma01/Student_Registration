@@ -1,4 +1,4 @@
-<script>
+
 
         function call(){
             function calculateRemark(parameter) {
@@ -74,4 +74,3 @@
         document.getElementById("result").innerHTML=hey
         
         }
-    </script>
